@@ -1,3 +1,4 @@
+import Footer from '../components/common/Footer';
 import Navbar from '../components/common/Navbar';
 import Hero from '../components/home/Hero';
 import QRCode from '../components/home/QRCode';
@@ -16,6 +17,7 @@ const Home = () => {
       <Support />
       <Testimonial />
       <QRCode />
+      <Footer />
     </div>
   )
 }
