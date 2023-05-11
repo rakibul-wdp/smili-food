@@ -4,13 +4,13 @@ import { IoIosArrowDown } from "react-icons/io";
 
 const Versatile = () => {
   return (
-    <div className="flex items-center justify-between lg:px-24 pt-44">
+    <div className="flex flex-col lg:flex-row items-center justify-between px-16 md:px-20 lg:px-24 pt-20 md:pt-28 lg:pt-44">
       <img src={VersatileImg} alt="versatile image" />
-      <div className="ml-24">
-        <h1 className="text-5xl text-black font-semibold">
+      <div className="ml-0 md:ml-14 lg:ml-24 mt-14 md:mt-24 lg:mt-0">
+        <h1 className="text-3xl md:text-4xl lg:text-5xl text-black font-semibold">
           Smili food le logiciel polyvalant{" "}
         </h1>
-        <p className="text-2xl font-light mt-5 mb-14">
+        <p className="text-lg md:text-xl lg:text-2xl font-light mt-5 mb-8 md:mb-10 lg:mb-14">
           Offrez une expérience de commande exceptionnelle pour vous et vos
           clients.
         </p>
@@ -20,7 +20,7 @@ const Versatile = () => {
               <Disclosure>
                 {({ open }) => (
                   <>
-                    <Disclosure.Button className="flex w-full items-center justify-between rounded-lg px-4 py-2 text-left text-3xl font-medium focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
+                    <Disclosure.Button className="flex w-full items-center justify-between rounded-lg px-4 py-2 text-left text-xl md:text-2xl lg:text-3xl font-medium focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
                       <span className={`${open ? "text-black" : "text-[#93A093]"}`}>Menu connecté.</span>
                       <IoIosArrowDown
                         className={`${
@@ -41,10 +41,10 @@ const Versatile = () => {
                   </>
                 )}
               </Disclosure>
-              <Disclosure as="div" className="mt-2">
+              <Disclosure as="div" className="mt-2 border-y-2 border-[#93A093]">
                 {({ open }) => (
                   <>
-                    <Disclosure.Button className="flex w-full items-center justify-between rounded-lg px-4 py-2 text-left text-3xl font-medium focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
+                    <Disclosure.Button className="flex w-full items-center justify-between rounded-lg px-4 py-2 text-left text-xl md:text-2xl lg:text-3xl font-medium focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
                       <span className={`${open ? "text-black" : "text-[#93A093]"}`}>Commande en ligne.</span>
                       <IoIosArrowDown
                         className={`${
@@ -58,10 +58,10 @@ const Versatile = () => {
                   </>
                 )}
               </Disclosure>
-              <Disclosure as="div" className="mt-2">
+              <Disclosure as="div" className="mt-2 border-b-2 border-[#93A093]">
                 {({ open }) => (
                   <>
-                    <Disclosure.Button className="flex w-full items-center justify-between rounded-lg px-4 py-2 text-left text-3xl font-medium focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
+                    <Disclosure.Button className="flex w-full items-center justify-between rounded-lg px-4 py-2 text-left text-xl md:text-2xl lg:text-3xl font-medium focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
                       <span className={`${open ? "text-black" : "text-[#93A093]"}`}>Réservation table en ligne.</span>
                       <IoIosArrowDown
                         className={`${
@@ -78,7 +78,7 @@ const Versatile = () => {
               <Disclosure as="div" className="mt-2">
                 {({ open }) => (
                   <>
-                    <Disclosure.Button className="flex w-full items-center justify-between rounded-lg px-4 py-2 text-left text-3xl font-medium focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
+                    <Disclosure.Button className="flex w-full items-center justify-between rounded-lg px-4 py-2 text-left text-xl md:text-2xl lg:text-3xl font-medium focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
                       <span className={`${open ? "text-black" : "text-[#93A093]"}`}>Carte connecté +.</span>
                       <IoIosArrowDown
                         className={`${
