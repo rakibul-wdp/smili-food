@@ -15,8 +15,8 @@ const Home = () => {
       <Services />
       <Versatile />
       <Support />
-      {/* <Testimonial />
-      <QRCode />
+      <Testimonial />
+      {/* <QRCode />
       <Footer /> */}
     </div>
   );

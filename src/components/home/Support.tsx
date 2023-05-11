@@ -20,7 +20,7 @@ const supports = [
 
 const Support = () => {
   return (
-    <div className="px-16 md:px-24 lg:pl-44 pt-16 md:pt-28">
+    <div className="px-16 md:px-24 lg:pl-44 pt-16 md:pt-28 mb-14 md:mb-16 lg:mb-20">
       <h1 className="text-3xl md:text-4xl lg:text-5xl text-black font-semibold border-l-4 border-[#FFCA7A] pl-5 mb-6">
         Une assistance de qualité <br /> supérieure.
       </h1>
