@@ -16,8 +16,8 @@ const Home = () => {
       <Versatile />
       <Support />
       <Testimonial />
-      {/* <QRCode />
-      <Footer /> */}
+      <QRCode />
+      <Footer />
     </div>
   );
 };
